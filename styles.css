@@ -1,0 +1,35 @@
+body {
+    background: url(https://images.unsplash.com/photo-1467857499683-7c766c8c1f15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Chathura', sans-serif;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+h1 {
+    color: #ffc7dd;
+    font-size: 15em;
+    text-align: center;
+    filter: contrast(110%);
+    filter: brightness(110%);
+    
+    font-weight: lighter;
+}
+
+.shadow {
+    
+    text-shadow: 
+    -5px -5px 7px pink,
+    2px 5px 4px #ff579a,
+    2px 2px 4px white;
+}
+
+.flicker {
+    filter: blur(1px);
+    color: #4d4d4d;
+    opacity: .5;
+    transition: .1s;
+}
